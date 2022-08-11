@@ -27,7 +27,7 @@ body {
     display:flex;
     align-items:center;
 }
-.container {
+/*.container {
 width:100%;
 background-color:#1E1E1E;
 overflow-x:hidden;
@@ -92,7 +92,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color:#FFDE59;
-}
+}*/
 .container .main{
     width:100%;
     height:80vh;
@@ -286,3 +286,65 @@ nav ul li a:hover{
     .contact h1 span{
         color:#FFDE59;
     }
+    .contact .box {
+    flex-direction:column;
+    margin-top:40px;
+    }
+    .box div{
+        width:40%;
+        margin :auto;
+    }
+    .contact .box input{
+        width:90%;
+        margin:auto;
+        outline:none;
+        border:none;
+        background-color:#FFDE59;
+        padding:9px 40px;
+        border-radius:5px;
+        margin:10px;
+        font-size:16px;
+    }
+    .box div{
+        position:relative;
+    }
+    .box div i{
+        position:absolute;
+        font-size:20px;
+        color:black;
+        top:20px;
+        left:20px;
+    }
+    .contact .box textarea{
+        margin-top:20px;
+        background-color:transparent;
+        padding:10px 30px;
+        color:white;
+        font-size:18px;
+        border-radius:20px;
+        border:1px solid #FFDE59;
+        outline:none;
+        margin-left:30px;
+    }
+    .send{
+        background:linear-gradient(#FFDE59, #DDB100);
+        font-size:19px !important;
+        font-weight:600;
+        cursor:pointer;margin:30px auto !important;
+    }
+footer {
+    justify-content: space-between;
+    padding: 10px 70px;
+    background: linear-gradient(#FFDE59, #DDB100);
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+footer .social i{
+    font-size:25px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.social i:hover{
+    color:palevioletred;
+}
