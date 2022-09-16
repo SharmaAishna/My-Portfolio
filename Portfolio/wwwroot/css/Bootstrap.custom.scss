@@ -1,0 +1,6 @@
+﻿$primary: #3a40a5;
+@import"../lib/bootstrap/scss/bootstrap";
+
+nav.navbr {
+    background: linear-gradient($primary,$white)
+}

@@ -10,4 +10,8 @@
     <None Include="wwwroot\Image\PicForResume1.jpeg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
+  </ItemGroup>
+
 </Project>
