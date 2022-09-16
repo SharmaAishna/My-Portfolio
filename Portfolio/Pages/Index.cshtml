@@ -8,8 +8,8 @@
     <div class="container align-content-center text-dark"> 
       <div class="row">
         <div class="col-sm-6">
-         <h2> Hi I am</h2> 
-         <span class="auto">Aishna Sharma</span>
+         <h2> Hii! I am</h2> 
+         <span class="auto myColor">Aishna Sharma</span>
          <p>I am a programming enthusiastic. .NET developer with 5 years+ of Experience in all stages of advanced web development. 
         Bringing forth expertise in design, installation, testing and maintenance of web applications.
         Passionate to stay updated with the latest development trends. 
@@ -18,7 +18,7 @@
         Proficient in an assortment of technologies, including C#.NET ,WPF, MVC ASP.NET, Razor ,
         MS SQL Server, JavaScript, CSS and HTML, GITHUB and Azure DevOps.</p>
         <span class="shadow p-3 mb-5 bg-white rounded">
-         <input class="btn btn-outline-warning rounded " type="button" value="Say Hi!"/></span>
+         <input class="btn btn-outline-warning" type="button" value="Say Hi!"/></span>
         </div>  
        <div class="col-sm-6 align-content-center">
          
@@ -29,34 +29,36 @@
    
     <div class="row mt-5 mb-5" id="project">
     
-        <h1>My Awesome<br/>
-        <span>Projects</span></h1>
+        <h2 class="myColor">My Awesome<br/>
+        <span>Projects</span></h2>
          <p>I made  this Projects Using Razor Pages, MVC ASP.Net Projects</p>
          
   </div>
   <div class="row mt-5 mb-5">
      <div class="col-sm-4">
-        <div class="card " style="width:18rem;">
-        <img class="card-img" src="" alt=""/>
+        <div class="card shadow p-3 mb-5 bg-white rounded" style="width:18rem;">
+        <img class="card-img-top" src="~/Image/BurgerPage.png" alt="Burger Website" style="width:286px;height:180;"/>
             <div class="card-body">
             <h4 class="card-title mb-2">Burger Website</h4>
-            <p class="card-subtitle">in this website user can order burger</p>
+            <p class="card-subtitle">In this website user can order burger</p>
             <input class="btn btn-outline-warning" type="button" value="Preview"/>
             </div>
         </div>
      </div>
      <div class="col-sm-4">
-            <div class="card" style="width:18rem;">
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width:18rem;">
              <img class="card-img" src="" alt=""/>
                 <div class="card-body">
-                <h4 class="card-title mb-2">News Website</h4>
-                 <p class="card-text">This is news Portal</p>
+                <h4 class="card-title mb-2">books record</h4>
+                 <p class="card-text">In this portal Books can be manage using CRUD</p>
                 <input class="btn btn-outline-warning" type="button" value="Preview"/>
+                
                 </div>
              </div>
      </div>
-     <div class="col-sm-4 align-right">
-          <div class="card" style="width:18rem;">
+     
+     <div class="col-sm-4 align-right ">
+          <div class="card shadow p-3 mb-5 bg-white rounded" style="width:18rem;">
              <img class="card-img" src="" alt=""/>
                 <div class="card-body">
                 <h4 class="card-title mb-2">Food App</h4>
@@ -66,17 +68,16 @@
            </div>
      </div>
  </div>
-  
 
-          <div class="row mt-5 mb-5">
+            <div class="row mt-5 mb-5">
             <div class="col">
                 <section class="about flex" id="about">
                     <div class="about-one">
-                    <h1>About me</h1>
+                    <h2 class="myColor">About me</h2>
                     <span>Aishna Sharma</span>
                     <p>I am Aishna Sharma. I am a software Developer. Looking fo oppurtunities</p>
                     <form class="btns">
-                    <input class="btn btn-primary" type="button" value="Contact Me"/>
+                    <input class="btn btn-outline-warning shadow p-3 mb-5 bg-white rounded" type="button" value="Contact Me"/>
                     </form> 
                     </div>
                 <div class="about-two">
@@ -86,24 +87,23 @@
             </div>
         </div>
     <div class="row mt-5 mb-5">
-        <div class="col justify-content-center">
-            <section class="contact" id="">
-             <h1>Let us<span>Talk!</span></h1>
+        <div class="col justify-content-center" id="contact">
+             <h2 class="myColor">Let us<span>Talk!</span></h2>
                <div class="box flex">
-                 <div>
+                 <div class="myColor">
                     <i class="fa-solid fa-user"></i>
                     <input type="text" placeholder="Name.."/>
                  </div>
-                <div>
+                <div class="myColor">
                 <i class="fa-solid fa-envelope"></i>
                 <input type="email" placeholder="Email" />   
                 </div>
                  <textarea name="" id="" cols="60" rows="5" placeholder="Enter your message here.."></textarea>
                  <div>
-                <input type="submit" classs="send" placeholder="Send" /> 
+                     <a href="mailto:aishna_sharma@live.com" type="button" class="btn btn-outline-warning shadow p-3 mb-5 bg-white rounded">Submit</a>
+              
                 </div>
-                </div>
-            </section>
+            </div>
         </div>
     </div>
 </div>

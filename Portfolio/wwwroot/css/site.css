@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=roboto:wght@500;700;900&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -8,10 +9,10 @@ html {
   font-size: 1rem;
 }
 
-@media {
-  html {
-    font-size: 1.2rem;
-  }
+@media (min-width: 768px) {
+    html {
+        font-size: 1.2rem;
+    }
 }
 html {
     position: relative;
@@ -22,7 +23,13 @@ body {
     margin-bottom: 60px;
    
 }
-
+.MyLinks:hover {
+    color: #ffdf00;
+    transform: scale(1.05);
+}
+.myColor {
+    color: #ffdf00;
+}
 /* background-color: #1E1E1E;
 .flex
 {
