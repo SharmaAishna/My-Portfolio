@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
-    <None Include="wwwroot\Image\PicForResume1.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
