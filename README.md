@@ -1,4 +1,4 @@
-# Portfolio V1.0.0
+# Portfolio 
 
 # Introduction
 This is my Portfolio and some of my sample projects.
