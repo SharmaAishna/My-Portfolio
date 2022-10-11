@@ -10,6 +10,7 @@
 @import "../lib/bootstrap/scss/variables";
 @import "../lib/bootstrap/scss/maps";
 @import "../lib/bootstrap/scss/mixins";
+$Secondary: #FFBD33;
 @import "../lib/bootstrap/scss/utilities";
 
 // Layout & components
@@ -30,6 +31,7 @@ $btn-border-radius:10REM;
 @import "../lib/bootstrap/scss/button-group";
 
 $primary: #FFC000;
+
 //@import"../lib/bootstrap/scss/bootstrap";
 
 nav.navbar {

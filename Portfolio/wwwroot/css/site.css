@@ -27,12 +27,13 @@ body {
     color: #ffdf00;
     transform: scale(1.05);
 }
-.myColor{
-    color: #ffdf00;
-    }
+.myColor {
+    color: #FFC000;
+}
 .card:hover{
 transform:scale(1.05);
 }
+
 /* background-color: #1E1E1E;
 .flex
 {
